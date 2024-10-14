@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
 -- This guarantees that the specs are processed before any user plugins.
@@ -7,6 +5,25 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- language packs
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cpp" },
+  -- { import = "astrocommunity.pack.harper" },
+  -- { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.julia" },
+  { import = "astrocommunity.pack.lean" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.ocaml" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.typst" },
+  { import = "astrocommunity.pack.zig" },
 }

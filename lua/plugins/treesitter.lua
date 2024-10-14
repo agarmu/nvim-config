@@ -1,4 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Treesitter
 
@@ -9,6 +8,26 @@ return {
     ensure_installed = {
       "lua",
       "vim",
+      "bash",
+      "cpp",
+      "git_config",
+      "git_rebase",
+      "gitignore",
+      "java",
+      "javascript",
+      "json",
+      "julia",
+      "just",
+      "latex",
+      "lua",
+      "make",
+      "nix",
+      "ocaml",
+      "php",
+      "rust",
+      "sql",
+      "yaml",
+      "zig"
       -- add more arguments for adding more treesitter parsers
     },
   },
