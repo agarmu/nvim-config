@@ -6,13 +6,19 @@
 return {
   "AstroNvim/astrocommunity",
   -- import/override with your plugins folder
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.fuzzy-finder.fzf-lua" },
+  { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
+  { import = "astrocommunity.game.leetcode-nvim" },
+
   -- language packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },
   -- { import = "astrocommunity.pack.harper" },
   -- { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.just" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.julia" },
