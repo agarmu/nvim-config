@@ -1,4 +1,3 @@
-
 -- Customize Treesitter
 
 ---@type LazySpec
@@ -16,18 +15,6 @@ return {
       "java",
       "javascript",
       "json",
-      "julia",
-      "just",
-      "latex",
-      "lua",
-      "make",
-      "nix",
-      "ocaml",
-      "php",
-      "rust",
-      "sql",
-      "yaml",
-      "zig"
       -- add more arguments for adding more treesitter parsers
     },
   },
