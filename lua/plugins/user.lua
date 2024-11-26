@@ -102,4 +102,8 @@ return {
   {
     "dstein64/vim-startuptime",
   },
+  -- plugin for zen mode coding
+  {
+    "folke/zen-mode.nvim",
+  },
 }
