@@ -12,7 +12,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },
-  -- { import = "astrocommunity.pack.harper" },
   -- { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.just" },
   { import = "astrocommunity.pack.java" },

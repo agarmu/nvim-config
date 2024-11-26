@@ -9,6 +9,10 @@ return {
     opts = {
       ensure_installed = {
         -- add more arguments for adding more language servers
+        "bashls",
+        "pest_ls",
+        "asm_lsp",
+        "coq_lsp",
       },
     },
   },
@@ -19,6 +23,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "asmfmt",
         -- add more arguments for adding more null-ls sources
       },
     },
