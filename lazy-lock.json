@@ -67,6 +67,7 @@
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "rustaceanvim": { "branch": "master", "commit": "fee0aa094b0c9f93fffe5a385b3d5d2386c2b072" },
   "smart-splits.nvim": { "branch": "master", "commit": "00fba7a0e912a8d82da91a3b6b11d641fa500bd8" },
+  "snacks.nvim": { "branch": "main", "commit": "985be4a759f6fe83e569679da431eeb7d2db5286" },
   "telescope-zoxide": { "branch": "main", "commit": "54bfe630bad08dc9891ec78c7cf8db38dd725c97" },
   "todo-comments.nvim": { "branch": "main", "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0" },
   "toggleterm.nvim": { "branch": "main", "commit": "022ff5594acccc8d90d2e46dc43994f7722ebdf7" },
