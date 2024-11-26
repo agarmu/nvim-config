@@ -98,4 +98,8 @@ return {
     "folke/tokyonight.nvim",
     name = "tokyonight",
   },
+  -- plugin to profile/check startuptime
+  {
+    "dstein64/vim-startuptime",
+  },
 }

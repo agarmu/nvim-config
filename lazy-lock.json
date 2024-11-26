@@ -63,12 +63,10 @@
   "nvim-web-devicons": { "branch": "master", "commit": "f09be61d05bebcba85bb47be1931322d51b95644" },
   "nvim-window-picker": { "branch": "main", "commit": "41cfaa428577c53552200a404ae9b3a0b5719706" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
-  "presence.nvim": { "branch": "main", "commit": "87c857a56b7703f976d3a5ef15967d80508df6e6" },
   "promise-async": { "branch": "main", "commit": "38a4575da9497326badd3995e768b4ccf0bb153e" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "rustaceanvim": { "branch": "master", "commit": "fee0aa094b0c9f93fffe5a385b3d5d2386c2b072" },
   "smart-splits.nvim": { "branch": "master", "commit": "00fba7a0e912a8d82da91a3b6b11d641fa500bd8" },
-  "smear-cursor.nvim": { "branch": "main", "commit": "66b4e9ea6773debc78073b6d41c7c0cf5c0ad954" },
   "telescope-zoxide": { "branch": "main", "commit": "54bfe630bad08dc9891ec78c7cf8db38dd725c97" },
   "todo-comments.nvim": { "branch": "main", "commit": "ae0a2afb47cf7395dc400e5dc4e05274bf4fb9e0" },
   "toggleterm.nvim": { "branch": "main", "commit": "022ff5594acccc8d90d2e46dc43994f7722ebdf7" },
@@ -77,7 +75,9 @@
   "typst.vim": { "branch": "main", "commit": "50e89f481102d5c9ef6990b9f8086c0c7d64bff6" },
   "venv-selector.nvim": { "branch": "regexp", "commit": "e82594274bf7b54387f9a2abe65f74909ac66e97" },
   "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" },
+  "vim-startuptime": { "branch": "master", "commit": "ac2cccb5be617672add1f4f3c0a55ce99ba34e01" },
   "vim-wakatime": { "branch": "master", "commit": "cf51327a9e08935569614d1cb24e779ee9f45519" },
   "which-key.nvim": { "branch": "main", "commit": "fb070344402cfc662299d9914f5546d840a22126" },
+  "zen-mode.nvim": { "branch": "main", "commit": "29b292bdc58b76a6c8f294c961a8bf92c5a6ebd6" },
   "zig-tools.nvim": { "branch": "master", "commit": "78a85278fe5d480da2f01df4db898757d7e953b5" }
 }
