@@ -2,19 +2,20 @@
 
 ---@type LazySpec
 return {
+  {
+    "pest-parser/pest.vim",
+  },
   -- use mason-lspconfig to configure LSP installations
   {
     "williamboman/mason-lspconfig.nvim",
-    -- overrides `require("mason-lspconfig").setup(...)`
-    opts = {
-      ensure_installed = {
-        -- add more arguments for adding more language servers
-        "bashls",
-        "pest_ls",
-        "asm_lsp",
-        "coq_lsp",
-      },
-    },
+    config = function()
+      require("mason-lspconfig").setup {
+        ensure_installed = { "bashls", "pest_ls", "asm_lsp", "coq_lsp" },
+        handlers = {
+          ["pest_ls"] = function() require("pest-vim").setup {} end,
+        },
+      }
+    end,
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
   {
