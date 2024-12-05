@@ -10,7 +10,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup {
-        ensure_installed = { "bashls", "pest_ls", "asm_lsp", "coq_lsp" },
+        ensure_installed = { "bashls", "pest_ls", "asm_lsp" },
         handlers = {
           ["pest_ls"] = function() require("pest-vim").setup {} end,
         },
