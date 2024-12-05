@@ -93,10 +93,9 @@ return {
   {
     "wakatime/vim-wakatime",
   },
-  -- TokyoNight Colorscheme
+  -- Oxocarbon colorscheme
   {
-    "folke/tokyonight.nvim",
-    name = "tokyonight",
+    "nyoom-engineering/oxocarbon.nvim",
   },
   -- plugin to profile/check startuptime
   {
