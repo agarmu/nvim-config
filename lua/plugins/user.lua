@@ -97,6 +97,8 @@ return {
   {
     "nyoom-engineering/oxocarbon.nvim",
   },
+  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {} },
+  { "EdenEast/nightfox.nvim" },
   -- plugin to profile/check startuptime
   {
     "dstein64/vim-startuptime",
