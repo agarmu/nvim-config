@@ -27,4 +27,7 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typst" },
   { import = "astrocommunity.pack.zig" },
+
+  -- notetaking /w zk
+  { import = "astrocommunity.note-taking.zk-nvim" },
 }
