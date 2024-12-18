@@ -15,7 +15,7 @@ require("lazy").setup({
   { import = "plugins" },
 } --[[@as LazySpec]], {
   -- Configure any other `lazy.nvim` configuration options here
-  install = { colorscheme = { "carbonfox", "oxocarbon", "habamax", "default" } },
+  install = { colorscheme = { "tokyonight-night", "habamax", "default" } },
   ui = { backdrop = 100 },
   performance = {
     rtp = {
