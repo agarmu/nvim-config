@@ -94,12 +94,7 @@ return {
     "wakatime/vim-wakatime",
   },
   -- Oxocarbon colorscheme
-  {
-    "nyoom-engineering/oxocarbon.nvim",
-  },
-  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {} },
-  { "EdenEast/nightfox.nvim" },
-  { "folke/tokyonight.nvim" },
+
   -- plugin to profile/check startuptime
   {
     "dstein64/vim-startuptime",
