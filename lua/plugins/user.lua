@@ -119,4 +119,14 @@ return {
       words = { enabled = true },
     },
   },
+  {
+    "rcarriga/nvim-notify",
+    priority = 2000,
+    opts = {
+      timeout = 1000,
+      render = "compact",
+      stages = "fade_in_slide_out",
+      top_down = false,
+    },
+  },
 }
