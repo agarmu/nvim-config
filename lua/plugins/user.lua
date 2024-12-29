@@ -129,4 +129,7 @@ return {
       top_down = false,
     },
   },
+  {
+    "tris203/precognition.nvim",
+  },
 }
