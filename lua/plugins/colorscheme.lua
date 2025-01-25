@@ -6,13 +6,14 @@ return {
   { "rebelot/kanagawa.nvim" },
   { "catppuccin/nvim" },
   { "neanias/everforest-nvim" },
+  { "comfysage/evergarden" },
   { "scottmckendry/cyberdream.nvim" },
   { "maxmx03/fluoromachine.nvim" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "evergarden",
     },
   },
 }
