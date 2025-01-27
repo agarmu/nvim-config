@@ -27,10 +27,12 @@ return {
   },
   {
     "chomosuke/typst-preview.nvim",
-    cmd = { "TypstPreview", "TypstPreviewToggle", "TypstPreviewUpdate" },
-    build = function()
-      require("typst-preview").update()
-    end,
+    ft = "typst",
+    cmd = {
+      "TypstPreview",
+      "TypstPreviewToggle",
+      "TypstPreviewUpdate",
+    },
     opts = {
       dependencies_bin = {
         tinymist = "tinymist",
