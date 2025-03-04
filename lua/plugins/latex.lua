@@ -29,12 +29,15 @@ return {
       }
     end,
   },
+  -- {
+  --   "iurimateus/luasnip-latex-snippets.nvim",
+  --   config = function()
+  --     require("luasnip-latex-snippets").setup()
+  --     -- or setup({ use_treesitter = true })
+  --     require("luasnip").config.setup({ enable_autosnippets = true })
+  --   end,
+  -- },
   {
-    "iurimateus/luasnip-latex-snippets.nvim",
-    config = function()
-      require("luasnip-latex-snippets").setup()
-      -- or setup({ use_treesitter = true })
-      require("luasnip").config.setup({ enable_autosnippets = true })
-    end,
+    "let-def/texpresso.vim",
   },
 }
