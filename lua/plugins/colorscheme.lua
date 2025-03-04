@@ -1,8 +1,6 @@
 return {
   {
     "ellisonleao/gruvbox.nvim",
-    -- SeniorMars' GruvBox Config
-    -- https://github.com/SeniorMars/dotfiles/blob/061cde0fc933fa5a43d7844df26b3804e6c93060/.config/nvim/init.lua#L83
     opts = {
       contrast = "hard",
     },
